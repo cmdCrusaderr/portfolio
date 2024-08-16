@@ -1,0 +1,357 @@
+body {
+  background: transparent; /* Make it white if you need */
+  color:black;
+  padding: 0 24px;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.name {
+  background-color: black;
+  border: 0cm;
+  text-align: center;
+  padding: 10px 20px;
+  margin: 0 10px;
+  margin-right: 150px;
+  margin-left: -15pc;
+  color: whitesmoke;
+  font-family: monospace;
+  
+}
+
+.coffee {
+  background-color: black;
+  border: 0cm;
+  padding: 10px 20px;
+  margin: 0 10px;
+  color: whitesmoke;
+  font-size: 10px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  padding: 10px;
+  position: fixed; /* Fixes the header to the top */
+    top: 0; /* Aligns the header to the top of the viewport */
+    left: 0; /* Aligns the header to the left */
+    width: 100%; /* Makes the header full width */
+    z-index: 1000; /* Ensures the header is above other content */
+
+}
+
+.heading {
+  display: flex;
+  font-family: monospace;
+  padding-left: 360px;
+}
+
+.github {
+  background-color: black;
+  border: 0cm;
+  padding: 10px 20px;
+  margin: 0 10px;
+  text-align: center;
+  color: whitesmoke;
+}
+
+.linkedin {
+  background-color: black;
+  border: 0cm;
+  padding: 10px 20px;
+  margin: 0 10px;
+  text-align: center;
+  color: whitesmoke;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+.swe{
+  font: 100;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: italic;
+  font-variant:normal;
+  font-size: 60px;
+  padding: 10px 20px;
+  margin-bottom: 0px;
+  color: whitesmoke;
+}
+
+.dev{
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 100px;
+  margin-top: 0px;
+  color: whitesmoke;
+}
+
+.job-role{
+  margin-right: 150px;
+  margin-left: -5pc;
+}
+body {
+    margin: 0; /* Remove default body margin */
+    padding: 0; /* Remove default body padding */
+    background-color: black;
+}
+
+.page {
+    display: flex; /* Use flexbox */
+    flex-direction: column; /* Align elements vertically */
+}
+
+.header {
+    display: flex; /* Use flexbox for the header */
+    justify-content: center; /* Center the header content horizontally */
+}
+
+.heading {
+    display: flex; /* Use flexbox for the heading */
+    justify-content: center; /* Center the heading content horizontally */
+}
+
+.intro {
+    display: flex; /* Use flexbox for the intro section */
+    flex-direction: column; /* Align elements vertically */
+    align-items: center; /* Center the intro content horizontally */
+}
+
+.job-role {
+    display: flex; /* Use flexbox for the job role section */
+    flex-direction: column; /* Align elements vertically */
+    align-items: center; /* Center the job role content horizontally */
+}
+
+.desc {
+    display: flex; /* Use flexbox for the description section */
+    flex-direction: column; /* Align elements vertically */
+    align-items: center; /* Center the description content horizontally */
+    margin-left:10px ;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+    background-color: black; /* Minimal black background */
+}
+
+.space-background {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.star {
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    animation: twinkle 1.5s infinite alternate;
+}
+
+/* Increased star sizes */
+.star:nth-child(1) {
+    width: 5px;  /* Increased size */
+    height: 5px; /* Increased size */
+    top: 20%;
+    left: 10%;
+    animation-duration: 1.2s;
+}
+
+.star:nth-child(2) {
+    width: 7px;  /* Increased size */
+    height: 7px; /* Increased size */
+    top: 40%;
+    left: 30%;
+    animation-duration: 1.5s;
+}
+
+.star:nth-child(3) {
+    width: 4px;  /* Increased size */
+    height: 4px; /* Increased size */
+    top: 60%;
+    left: 50%;
+    animation-duration: 1.8s;
+}
+
+.star:nth-child(4) {
+    width: 6px;  /* Increased size */
+    height: 6px; /* Increased size */
+    top: 80%;
+    left: 70%;
+    animation-duration: 1.3s;
+}
+
+.star:nth-child(5) {
+    width: 3px;  /* Increased size */
+    height: 3px; /* Increased size */
+    top: 30%;
+    left: 80%;
+    animation-duration: 1.7s;
+}
+
+.star:nth-child(6) {
+    width: 5px;  /* Increased size */
+    height: 5px; /* Increased size */
+    top: 50%;
+    left: 20%;
+    animation-duration: 1.4s;
+}
+
+.star:nth-child(7) {
+    width: 7px;  /* Increased size */
+    height: 7px; /* Increased size */
+    top: 10%;
+    left: 60%;
+    animation-duration: 1.6s;
+}
+
+.star:nth-child(8) {
+    width: 4px;  /* Increased size */
+    height: 4px; /* Increased size */
+    top: 70%;
+    left: 40%;
+    animation-duration: 1.9s;
+}
+
+.star:nth-child(9) {
+    width: 6px;  /* Increased size */
+    height: 6px; /* Increased size */
+    top: 90%;
+    left: 30%;
+    animation-duration: 1.2s;
+}
+
+.star:nth-child(10) {
+    width: 3px;  /* Increased size */
+    height: 3px; /* Increased size */
+    top: 20%;
+    left: 50%;
+    animation-duration: 1.8s;
+}
+
+@keyframes twinkle {
+    0% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.desc{
+  width: 300px;
+  height: auto;
+  padding: 20px;
+  
+}
+
+.desc p {
+  margin: 0;
+  font-size: 16px;
+  color: whitesmoke;
+  background-color: black;
+  border: 0px;
+  font-family: monospace;
+}
+
+.name {
+    background-color: black; /* Original background color */
+    border: 0; /* Original border */
+    text-align: center; /* Original text alignment */
+    color: whitesmoke; /* Original text color */
+    font-family: monospace; /* Original font family */
+
+    /* New styles */
+    transition: all 0.5s ease; /* Transition for smooth effects */
+    color: #fff; /* New text color */
+    line-height: 1; /* Line height */
+    font-size: 17px; /* Font size */
+    background-color: transparent; /* New background color */
+}
+
+/* Optional: Add hover effect */
+.name:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Light background on hover */
+    color: #fff; /* Maintain text color on hover */
+    border-color: rgba(255, 255, 255, 0.8); /* Change border color on hover */
+}
+
+
+
+.github {
+    background-color: black; /* Original background color */
+    border: 0; /* Original border */
+    text-align: center; /* Original text alignment */
+    color: whitesmoke; /* Original text color */
+    font-family: monospace; /* Original font family */
+
+    /* New styles */
+    transition: all 0.5s ease; /* Transition for smooth effects */
+    color: #fff; /* New text color */
+    line-height: 1; /* Line height */
+    font-size: 17px; /* Font size */
+    background-color: transparent; /* New background color */
+}
+
+/* Optional: Add hover effect */
+.github:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Light background on hover */
+    color: #fff; /* Maintain text color on hover */
+    border-color: rgba(255, 255, 255, 0.8); /* Change border color on hover */
+}
+
+
+
+.linkedin{
+    background-color: black; /* Original background color */
+    border: 0; /* Original border */
+    text-align: center; /* Original text alignment */
+    color: whitesmoke; /* Original text color */
+    font-family: monospace; /* Original font family */
+
+    /* New styles */
+    transition: all 0.5s ease; /* Transition for smooth effects */
+    color: #fff; /* New text color */
+    line-height: 1; /* Line height */
+    font-size: 17px; /* Font size */
+    background-color: transparent; /* New background color */
+}
+
+/* Optional: Add hover effect */
+.linkedin:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Light background on hover */
+    color: #fff; /* Maintain text color on hover */
+    border-color: rgba(255, 255, 255, 0.8); /* Change border color on hover */
+}
+
+
+
+.coffee {
+    background-color: black; /* Original background color */
+    border: 0; /* Original border */
+    text-align: center; /* Original text alignment */
+    color: whitesmoke; /* Original text color */
+    font-family: monospace; /* Original font family */
+
+    /* New styles */
+    transition: all 0.5s ease; /* Transition for smooth effects */
+    color: #fff; /* New text color */
+    line-height: 1; /* Line height */
+    font-size: 17px; /* Font size */
+    background-color: transparent; /* New background color */
+}
+
+/* Optional: Add hover effect */
+.coffee:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Light background on hover */
+    color: #fff; /* Maintain text color on hover */
+    border-color: rgba(255, 255, 255, 0.8); /* Change border color on hover */
+}
